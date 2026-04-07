@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-// Mostrar branding propio antes de iniciar la CLI
-console.log('🔥 Bienvenido a tu CLI ANGEL OFC DEV');
-console.log('🤖 Crea bots WhatsApp en minutos con tu marca propia!');
+// Mostrar tu branding antes de iniciar la CLI
+console.log('🔥 Bienvenido a ANGEL OFC DEV CLI');
+console.log('🤖 Crea bots WhatsApp personalizados en minutos');
 console.log('--------------------------------------------------');
 
-// Llamar a la CLI real
+// Ejecutar la CLI real
 const index = require('../lib/cli/bundle.cli.cjs');
 index.startInteractive();
